@@ -1,0 +1,21 @@
+.logodiv {
+  max-width: 10%;
+  max-height: 10%;
+}
+
+.logo {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.navbar {
+  display: flex;
+  margin: 2%;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
