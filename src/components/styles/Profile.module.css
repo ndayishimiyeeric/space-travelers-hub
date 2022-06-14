@@ -1,0 +1,32 @@
+h4 {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+.profileDiv {
+  display: flex;
+  gap: 20px;
+  padding: 2rem 8rem;
+}
+
+.left {
+  width: 40%;
+  border: 1px solid red;
+}
+
+.right {
+  width: 40%;
+}
+
+.elements {
+  border: 1px solid black;
+  margin-top: 0.5rem;
+}
+
+.element {
+  border-bottom: 1px solid black;
+  padding: 0.4rem;
+}
