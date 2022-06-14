@@ -39,43 +39,47 @@ function Header() {
   };
 
   return (
-    <nav className={styles.navbar}>
-      <div className={styles.logodiv}>
-        <img className={styles.logo} src={logo} alt="logo" />
-      </div>
-      <ul className={styles.links}>
-        <li>
-          <Link
-            className={styles.link}
-            style={active.rocket ? style : null}
-            to="/"
-            onClick={setRocket}
-          >
-            Rockets
-          </Link>
-        </li>
-        <li>
-          <Link
-            className={styles.link}
-            style={active.mission ? style : null}
-            to="/Missions"
-            onClick={setMission}
-          >
-            Missions
-          </Link>
-        </li>
-        <li>
-          <Link
-            className={styles.link}
-            style={active.profile ? style : null}
-            to="/Profile"
-            onClick={setProfile}
-          >
-            My Profile
-          </Link>
-        </li>
-      </ul>
-    </nav>
+    <>
+      <nav className={styles.navbar}>
+        <div className={styles.logodiv}>
+          <img className={styles.logo} src={logo} alt="logo" />
+          <p className={styles.logoP}>Space Travelers Hub</p>
+        </div>
+        <ul className={styles.links}>
+          <li>
+            <Link
+              className={styles.link}
+              style={active.rocket ? style : null}
+              to="/"
+              onClick={setRocket}
+            >
+              Rockets
+            </Link>
+          </li>
+          <li>
+            <Link
+              className={styles.link}
+              style={active.mission ? style : null}
+              to="/Missions"
+              onClick={setMission}
+            >
+              Missions
+            </Link>
+          </li>
+          <li>
+            <Link
+              className={styles.link}
+              style={active.profile ? style : null}
+              to="/Profile"
+              onClick={setProfile}
+            >
+              My Profile
+            </Link>
+          </li>
+        </ul>
+      </nav>
+      <hr />
+    </>
   );
 }
 

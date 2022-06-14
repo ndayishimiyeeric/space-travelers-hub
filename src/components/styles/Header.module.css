@@ -1,17 +1,24 @@
+.navbar {
+  padding: 1rem 8rem 1rem 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .logodiv {
-  max-width: 10%;
-  max-height: 10%;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.logoP {
+  font-size: 20px;
+  font-weight: 500;
 }
 
 .logo {
-  max-width: 100%;
+  max-width: 4rem;
   max-height: 100%;
-}
-
-.navbar {
-  display: flex;
-  margin: 2%;
-  justify-content: space-between;
 }
 
 .links {
