@@ -30,15 +30,15 @@
 .link::before {
   content: "";
   position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 2px;
-    background-color: #344563;
-    transform: scaleX(0);
-    transition: transform 0.2s ease-in-out;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background-color: #344563;
+  transform: scaleX(0);
+  transition: transform 0.2s ease-in-out;
 }
 
-.link:hover::before{
+.link:hover::before {
   transform: scaleX(1);
 }
