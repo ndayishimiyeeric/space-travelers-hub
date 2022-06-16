@@ -53,7 +53,7 @@ th {
   padding: 10px;
 }
 
-tbody tr:nth-child(odd){
+tbody tr:nth-child(odd) {
   background-color: #f0ebe6;
 }
 
