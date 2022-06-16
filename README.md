@@ -16,7 +16,7 @@ This is a Space Travelers Hub Web App
 
 ## Demo App
 
-Not Published Yet []()
+Live Demo [Space Travelers Hub](https://nderic-space-travelers-hub.netlify.app/)
 
 ## Built With
 
