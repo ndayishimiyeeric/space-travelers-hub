@@ -1,5 +1,67 @@
-.header {
-  display: initial;
-  margin-right: 10rem;
-  padding: 3rem;
+.mainDiv {
+  padding: 3rem 6rem;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.cardT {
+  font-size: 10px;
+  font-weight: 700;
+  background: #6b6f74;
+  color: #fff;
+  padding: 3px;
+  border-radius: 3px;
+}
+
+.cardTOpen {
+  font-size: 10px;
+  font-weight: 700;
+  background: #0290ff;
+  color: #fff;
+  padding: 3px;
+  border-radius: 3px;
+}
+
+.btnClosed {
+  border: 1px solid rgb(39, 38, 38);
+  border-radius: 4px;
+  color: rgb(39, 38, 38);
+  padding: 0.5rem;
+  text-align: center;
+  width: auto;
+}
+
+.btnOpen {
+  border: 1px solid rgb(228, 12, 12);
+  border-radius: 4px;
+  color: rgb(228, 12, 12);
+  padding: 0.5rem;
+  text-align: center;
+  width: auto;
+}
+
+table {
+  border: 1px solid #918e8c;
+  padding: 1rem;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 1px solid #918e8c;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+tbody tr:nth-child(odd){
+  background-color: #f0ebe6;
+}
+
+.name {
+  width: 12%;
+  font-weight: bold;
+}
+
+.desc {
+  width: 60%;
 }
