@@ -19,10 +19,10 @@ const Mission = (props) => {
       <tr>
         <td>{ missionName }</td>
         <td>{ description }</td>
-        <td>{ active ? 'Active' : 'Inactive' }</td>
+        <td className={active ? styles.statusActive : styles.statusDeactivate}>{ active ? 'Active' : 'Inactive' }</td>
         <td>
           <button className={active ? styles.btnActive : styles.btnDeactivate} type="button" onClick={() => handleReserve(id)}>
-            { active ? 'Deactivate' : 'Activate' }
+            { active ? 'Leave Mission' : 'Join Mission' }
           </button>
         </td>
       </tr>
