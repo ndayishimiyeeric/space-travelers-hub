@@ -1,0 +1,90 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header render correctly test Header 1`] = `
+Array [
+  <nav
+    className="navbar"
+  >
+    <div
+      className="logodiv"
+    >
+      <img
+        alt="logo"
+        className="logo"
+        src="logo.png"
+      />
+      <p
+        className="logoP"
+      >
+        Space Travelers Hub
+      </p>
+    </div>
+    <ul
+      className="links"
+    >
+      <li>
+        <a
+          className="link"
+          href="/"
+          onClick={[Function]}
+          style={
+            Object {
+              "borderBottom": "2px solid #344563",
+            }
+          }
+        >
+          Rockets
+        </a>
+      </li>
+      <li>
+        <a
+          className="link"
+          href="/Missions"
+          onClick={[Function]}
+          style={null}
+        >
+          Missions
+        </a>
+      </li>
+      <li>
+        <a
+          className="link"
+          href="/Profile"
+          onClick={[Function]}
+          style={null}
+        >
+          My Profile
+        </a>
+      </li>
+    </ul>
+  </nav>,
+  <hr />,
+]
+`;
+
+exports[`Header render correctly test Missions Link 1`] = `
+<a
+  href="/missions"
+  onClick={[Function]}
+>
+  Missions
+</a>
+`;
+
+exports[`Header render correctly test My Profile Link 1`] = `
+<a
+  href="/profile"
+  onClick={[Function]}
+>
+  My Profile
+</a>
+`;
+
+exports[`Header render correctly test Rockets Link 1`] = `
+<a
+  href="/rockets"
+  onClick={[Function]}
+>
+  Rockets
+</a>
+`;

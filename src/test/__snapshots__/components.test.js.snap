@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Compontests test My Profile 1`] = `
+<div
+  className="profileDiv"
+>
+  <div
+    className="left"
+  >
+    <h4>
+      My Missions
+    </h4>
+    <ul
+      className="elements"
+    />
+  </div>
+  <div
+    className="right"
+  >
+    <h4>
+      My Rockets
+    </h4>
+    <ul
+      className="elements"
+    />
+  </div>
+</div>
+`;
+
+exports[`Test Compontests test My Profile Link 1`] = `
+<div
+  className="missionDiv"
+>
+  <div
+    className="heading"
+  >
+    <p>
+      Mission Name:
+    </p>
+    <p>
+      Description:
+    </p>
+    <p>
+      Status:
+    </p>
+    <p>
+      Reserve Mission:
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Test Compontests test Rockets 1`] = `
+<div
+  className="rocketsDiv"
+/>
+`;
