@@ -1,0 +1,51 @@
+.navbar {
+  padding: 1rem 8rem 1rem 8rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logodiv {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.logoP {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.logo {
+  max-width: 4rem;
+  max-height: 100%;
+}
+
+.links {
+  display: flex;
+  list-style: none;
+  gap: 20px;
+}
+
+.link {
+  color: #344563;
+  position: relative;
+  text-decoration: none;
+  padding-bottom: 5px;
+}
+
+.link::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  background-color: #344563;
+  transform: scaleX(0);
+  transition: transform 0.2s ease-in-out;
+}
+
+.link:hover::before {
+  transform: scaleX(1);
+}
