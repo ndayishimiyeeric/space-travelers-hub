@@ -15,17 +15,18 @@ const Mission = (props) => {
   };
 
   return (
-    <>
-
-      <div className={styles.mission_body}>
-        <p>{ missionName }</p>
-        <p>{ description }</p>
-        <span>{ active ? 'Active Member' : 'Not A Member' }</span>
-        <button onClick={() => handleReserve(id)} type="button">
-          { active ? 'Leave Mission' : 'Join Mission' }
-        </button>
-      </div>
-    </>
+    <table className={styles.mission_body}>
+      <tr>
+        <td>{ missionName }</td>
+        <td>{ description }</td>
+        <td>{ active ? 'Active' : 'Inactive' }</td>
+        <td>
+          <button className={active ? styles.btnActive : styles.btnDeactivate} type="button" onClick={() => handleReserve(id)}>
+            { active ? 'Deactivate' : 'Activate' }
+          </button>
+        </td>
+      </tr>
+    </table>
   );
 };
 

@@ -6,53 +6,53 @@
   text-align: center;
   font-size: 1.5rem;
   font-family: 'Roboto', sans-serif;
+}
+
+.header td {
+  border: none;
+}
+
+.mission_body table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
   border: black solid 1px;
 }
 
-.heading {
-  display: flex;
-  margin: 1% auto;
-  padding-left: 3%;
+.mission_body table:nth-child(even) {
+  background-color: blue;
 }
 
-.mission_body:nth-child(even) {
+.mission_body td {
+  text-align: left;
+  padding: 8px;
+  min-width: 10rem;
+  border-right: 1px solid black;
+}
+
+.mission_body th,
+tr {
+  border: 1px solid black;
+  text-align: left;
+}
+
+.mission_body tr:nth-child(even) {
+  background-color: blue;
+}
+
+.btnActive {
+  background-color: #0290ff;
+  color: #fff;
+  padding: 0.4rem 0.3rem;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid #0290ff;
+}
+
+.btnDeactivate {
   background-color: #e6e6e6;
-}
-
-.mission_body p {
-  padding: 1%;
-  min-width: 10%;
-  text-align: left;
-  margin: auto;
-}
-
-.heading p:nth-child(odd) {
-  padding-right: 5%;
-}
-
-.heading p:nth-child(2) {
-  padding-right: 50%;
-}
-
-.heading p:nth-child(3) {
-  padding-right: 7%;
-}
-
-.mission_body span {
-  padding: 1%;
-  min-width: 15%;
-  text-align: left;
-  margin: auto;
-}
-
-.mission_body button {
-  min-width: 10%;
-  max-height: 21px;
-  margin: auto;
-}
-
-.missionDiv {
-  display: table-row;
-  border: black solid 1px;
-  margin: 2px;
+  color: #fff;
+  padding: 0.4rem 0.3rem;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid #0290ff;
 }
