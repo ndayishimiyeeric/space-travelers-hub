@@ -1,7 +1,6 @@
 import React from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { reserve } from '../redux/missions/missions';
-// import Mission from './Mission';
 import styles from './styles/Missions.module.css';
 
 const Missions = () => {
@@ -29,9 +28,6 @@ const Missions = () => {
 
   return (
     <div className={styles.mainDiv}>
-      {/* <p className={styles.header}>Mission</p>
-      <p className={styles.desc}>Description</p>
-      <p className={styles.header}>Status</p> */}
       <table>
         <thead className={styles.headers}>
           <tr>
