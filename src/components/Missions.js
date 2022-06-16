@@ -1,7 +1,7 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 import Mission from './Mission';
-import styles from './styles/Mission.module.css';
+import styles from './styles/Missions.module.css';
 
 const Missions = () => {
   const missions = useSelector((state) => state.mission);
@@ -16,15 +16,14 @@ const Missions = () => {
   ));
 
   return (
-    <div className={styles.missionDiv}>
-      <div className={styles.heading}>
-        <p>Mission Name:</p>
-        <p>Description:</p>
-        <p>Status:</p>
-        <p>Reserve Mission:</p>
-      </div>
+    <>
+      <p className={styles.header}>Mission Name</p>
+      <p className={styles.header}>Description</p>
+      <p className={styles.header}>Status</p>
+      <p className={styles.header}>Active</p>
+
       { missionElements }
-    </div>
+    </>
   );
 };
 
